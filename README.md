@@ -9,8 +9,8 @@ A decentralized blockchain-based application for trust hotel booking
 ## Setup
 ```
 npm install -g truffle
-git clone https://github.com/tko22/truffle-webpack-boilerplate.git
-cd truffle-webpack-boilerplate
+git clone hhttps://github.com/djamelkde/HotelTrustAdvisor.git
+cd HotelTrustAdvisor
 npm install
 npm run dev
 ```
