@@ -1,6 +1,6 @@
-# Boilerplate with Truffle and webpack for dApps built on Ethereum
+# dApps booking Trust Advisor built on Ethereum
 
-This boilerplate was made for this [blog post](https://medium.freecodecamp.org/developing-an-ethereum-decentralized-voting-application-a99de24992d9).
+A decentralized blockchain-based application for trust hotel booking
 ### Dependencies:
 - [Nodejs 5.0+](https://nodejs.org/en/)
 - [Truffle](https://github.com/trufflesuite/truffle)
