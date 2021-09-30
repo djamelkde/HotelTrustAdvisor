@@ -1,0 +1,322 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    margin: 70px 0px;
+    background: #0069d6;
+}
+.divider
+{
+    width:100px;
+    height: 2px;
+    background: #ffa500;
+    margin: 0 auto;
+}
+.heading 
+{
+    text-align: center;
+    margin-bottom: 60px;        
+}
+h2
+{
+    text-transform: uppercase;
+    font-weight:bold;
+    color: #fff;
+}
+#contact-form
+{
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+/* MENU */
+.navbar
+{
+    background: #d82c2e;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar .navbar-nav
+{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .navbar-collapse
+{
+    text-align: center;
+}
+.navbar li a
+{
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+    color: #d82c2e !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle
+{
+    border-style: none;
+}
+.icon-bar
+{
+    background-color: #fff !important;
+}
+
+/*---  NEW  ------*/
+.blue
+{
+    color: #0069d6;
+}
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+}
+.comments
+{
+    font-style: italic;
+    font-size: 18px;
+    color: #d82c2e;
+    height: 25px
+}
+#contact-form .thank-you
+{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.button1
+{
+    border: 1px solid #ddd;
+    background: #ffa500;
+    color: #fff;
+    width: 100%;        
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover
+{
+    background: #333;
+    border-color: #ffa500;
+}
+
+/* topsix */
+#topsix
+{
+    background: #d82c2e;
+    font-size: 20px;
+    #background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+#topsix .heading h2
+{
+    color: #fff;
+}
+#topsix .thumbnail img
+{
+    width: 284px;
+    height: 213px;
+    //filter: grayscale(100%);
+    //-webkit-filter: grayscale(100%); 
+}
+#topsix .thumbnail img:hover
+{
+	//filter: grayscale(100%);
+	filter: brightness(0.2);
+    //-webkit-filter: grayscale(100%); 
+     //filter: none;
+    //-webkit-filter: none; 
+    color: white;
+}
+
+.centered {
+	//background:white;
+	font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.thumbnail {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.thumbnail:hover{
+	color:white;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    margin-left: 10px;
+	background:blue;
+	color: white;
+    font-size: 20px;
+	font-weight: bold;
+    border-radius: 2px;
+    padding: 4px;
+    border-radius: 20%;
+}
+
+
+#myCarousel
+{
+    background: #fff;
+}
+.heading h3
+{
+  color: #d82c2e;
+  font-weight: bold;
+  text-align: center;
+}
+#myCarousel .carousel-control
+{
+    background: white !important;
+    color: red;
+}
+
+#carousel-example-generic .carousel-control
+{
+    background: none;
+    color: red;
+}
+
+.modal-header h3{
+    display: inline-block; 
+    margin-right: 8px;
+    font-weight: bold;
+    color: #696969;
+}
+
+.carousel-indicators
+{
+    bottom: 0px;
+}
+
+.yellow{
+    color: #FEBA02;
+    font-size: 20px;
+}
+.bl{
+    color: white;
+    //color: red;
+    font-size: 25px;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    
+    padding: 5px;
+    
+    border-radius: 50%;
+    //color: #fff;
+    cursor: pointer;
+    background: #07c;
+    //background: blue;
+    //width: 27px;
+    //height: 27px;
+    display: block;
+    
+}
+.bl img{
+    width: 25px;
+}
+
+.bl:hover{
+     background: blue;
+}
+
+.score {
+    margin-left: 10px;
+	background:blue;
+	color: white;
+    font-size: 20px;
+	font-weight: bold;
+    border-radius: 2px;
+    padding: 4px;
+    border-radius: 20%;
+}
+
+.carousel-indicators li
+{
+    border-color: #d82c2e;
+    background-color: #fff;
+}
+.carousel-indicators li.active
+{
+    background-color: #d82c2e;
+}
+
+.images-crsl {
+    height: 450px;
+}
+
+
+#myCarousel .item
+{
+    padding: 20px 30px;
+    margin-left: 150px;
+}
+#myCarousel .item p
+{
+    color: #d82c2e;
+    font-style: italic;
+    font-weight: bold;
+    //text-align: left;
+    width: 70%;
+}
+#myCarousel .item h4
+{
+    font-weight: bold;
+    //text-align: center;
+    width: 70%;
+}
+
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 500px;
+    overflow-y: auto;
+}
+
+body {
+    padding-top: 20px;
+    
+}
+
+.btn-default {
+    top: 25%;
+    left:25%; 
+    color: #999; 
+    background: #fffccc; 
+} 
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
