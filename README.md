@@ -1,4 +1,4 @@
-# dApps booking Trust Advisor built on Ethereum
+# DApps booking Trust Advisor built on Ethereum
 
 A decentralized blockchain-based application for trust hotel booking
 ### Dependencies:
